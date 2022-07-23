@@ -1,0 +1,10 @@
+diff --git a/plugins/outputs/all/all.go b/plugins/outputs/all/all.go
+index d6cad65..77b42c6 100644
+--- a/plugins/outputs/all/all.go
++++ b/plugins/outputs/all/all.go
+@@ -55,4 +55,5 @@ import (
+ 	_ "github.com/influxdata/telegraf/plugins/outputs/wavefront"
+ 	_ "github.com/influxdata/telegraf/plugins/outputs/websocket"
+ 	_ "github.com/influxdata/telegraf/plugins/outputs/yandex_cloud_monitoring"
++	_ "github.com/influxdata/telegraf/plugins/outputs/warp10"
+ )

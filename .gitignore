@@ -6,3 +6,4 @@
 !telegraf.service
 !telegraf.sysusers
 !telegraf.tmpfiles
+!clever-cloud-warp10-out.patch
